@@ -1,0 +1,62 @@
+  h1{
+    color : dodgerblue;
+    border: solid;
+    margin-left: 30px;
+  }
+  .header{
+     color: aqua; 
+     background-color: skyblue;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+  }
+  .grid{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .footer{
+      display: flex;
+      justify-content: center;
+  }
+  p,h2{
+      text-align: center;
+      color: #00ffff;
+      font-family: cursive, "Brush Script MT";
+  }
+  .item{
+    border: 20px solid #009900;
+    position: relative;
+  }
+  .item:hover{
+    border: 20px solid black;
+    border-bottom: 35px solid black;
+  }
+  .item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  .item:hover p{
+    opacity: 1;
+  }
+  .item:hover img{
+    opacity: 0.75;
+  }
+  body{
+    background-color: #eeaa00;
+  }
+  .menu{
+    margin-right: 30px;
+  }
+  .menu a{
+    margin-left: 30px;
+  }
+  a:link{
+    color: red;
+  }
+  a:visited{
+    color: red;
+  }
